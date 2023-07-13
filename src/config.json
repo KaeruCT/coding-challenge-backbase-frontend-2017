@@ -1,0 +1,13 @@
+{
+  "openWeatherMap": {
+    "apiKey": "6a2044ccae10009cab93fbf493df067e",
+    "endpoint": "http://api.openweathermap.org/data/2.5/"
+  },
+  "cities": [
+    "Amsterdam,NL",
+    "Barcelona,ES",
+    "Brussels,BE",
+    "London,UK",
+    "Vienna,AT"
+  ]
+}

@@ -1,0 +1,20 @@
+<div ng-if="$ctrl.ready">
+  <h1>Euro Weather</h1>
+  <ul class="city-list">
+    <li ng-repeat="city in $ctrl.cities | orderBy:'name'">
+      <a href="#!cities/{{city.id}}">
+        <div class="info">
+          <div class="name">{{city.name}}</div>
+          <div class="temp"><span class="emoji">🌡</span> {{city.temp}} °C</div>
+          <div class="wind"><span class="emoji">🌬</span> {{city.wind}} m/s</div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
+<div ng-if="$ctrl.ready == false && $ctrl.error == false" class="loading">
+  <span class="emoji">🌀</span>Loading...
+</div>
+<div ng-if="$ctrl.error" class="error">
+  <span class="emoji">☠</span>Failed to load cities. Please check your Internet connection and try again.
+</div>

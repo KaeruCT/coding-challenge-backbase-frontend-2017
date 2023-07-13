@@ -1,0 +1,25 @@
+{
+  "name": "euro-weather",
+  "author": "Andrés Villarreal",
+  "private": true,
+  "version": "1.0.0",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "css-loader": "0.28.7",
+    "extract-text-webpack-plugin": "3.0.2",
+    "file-loader": "1.1.5",
+    "html-webpack-plugin": "2.30.1",
+    "ng-cache-loader": "0.0.26",
+    "style-loader": "0.19.0",
+    "uglifyjs-webpack-plugin": "1.0.1",
+    "webpack": "3.8.1"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "angular": "1.5.11",
+    "angular-route": "1.5.11"
+  }
+}
